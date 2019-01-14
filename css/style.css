@@ -1,0 +1,68 @@
+/*  MOBILE */
+
+.wrapper{
+	width:100%;
+}
+
+ .header-top{
+	width:100%;
+}
+
+.sub-title {
+    width: 100%;
+}
+
+.header-middle {
+    background-color: #ff99ff;
+    width: 100%;
+    height: 323px;
+}
+
+.header-bottom{
+	width: 100%;
+}
+
+.main-content{
+	width:100%;
+}
+
+.uppercontent{
+	width:100%;
+}
+
+.lower-subcontent{
+	width:100%;
+}
+
+.sub-content , .required{
+	width:100%;
+}
+
+.content{
+	width:100%;
+	height: 460px;
+	background-color: #003366;
+}
+
+.requirements{
+	width: 80%;
+}
+.lower-subcontent{
+	background-color: #33ccff;
+}
+
+.lower-content{
+	width:100%;
+}
+
+.footer {
+    width: 100%;
+    height: 2150px;
+}
+
+/*@media screen and (min-width: 800px){
+
+	.wrapper{
+		
+	}
+}*/

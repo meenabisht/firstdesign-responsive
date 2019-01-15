@@ -60,9 +60,38 @@
     height: 2150px;
 }
 
-/*@media screen and (min-width: 800px){
+.conabt{
+	width:100%;
+}
 
-	.wrapper{
-		
-	}
-}*/
+@media screen and (min-width: 800px){
+
+.header-bottom img {
+  	width: 59%;
+    /* margin-right: -50px; */
+    margin-left: 296px;
+    margin-top: 101px;
+}
+
+.header-middle {
+    width: 59%;
+    height: 403px;
+}
+
+.header-middle p{
+	padding-top: 66px;
+}
+
+.uppercontent {
+    width: 60%;
+}
+
+.content {
+    width: 49%;
+}
+
+.conabt{
+	/*background-image: url('download-1.jpg');*/
+	background-color: lightyellow;
+	height: 700px;
+}

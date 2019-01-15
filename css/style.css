@@ -88,10 +88,12 @@
 
 .content {
     width: 49%;
+    float: left;
+    margin-top: 130px;
 }
 
 .conabt{
-	/*background-image: url('download-1.jpg');*/
+	background-image: url("download-1.jpg");
 	background-color: lightyellow;
 	height: 700px;
 }

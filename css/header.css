@@ -403,7 +403,7 @@
 }
 
 .foo10 h3{
-	color: white;
+	   color: white;
     font-size: 28px;
     font-weight: bold;
     line-height: 32px;
@@ -450,11 +450,11 @@
     }
 
   .title {
-    height: 543px;
+    height: 100%;
     }
 
   .header-top .sub-title {
-    height: 543px;
+    height: 100%;
         /* margin-left: 135px; */
   }
 
@@ -477,20 +477,21 @@
   	width:50%;
   }
 
- .lowercontent p {
-    width: 10%;
-    line-height: 32px;
-    font-size: 13px;
+  .lowercontent p {
+    font-size: 15px;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 23px;
-    float: left;
+    padding-top: 74%;
+    padding-bottom: 60%;
+    padding-left: 4%;
+    padding-right: 4%;
     margin-top: -433px;
-    margin-left: 859px;
-    background-color: skyblue;
-    /* margin-top: -10px; */
-    padding: 89px 14px;
+    margin-left: 66.7%;
+    background-color: #73c0d5;
+}
+
+.main-subcontent {
+  width: 50%;
+  float: left;
 }
 
 }

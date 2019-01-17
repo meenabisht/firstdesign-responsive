@@ -9,13 +9,13 @@
 }
 
 .sub-title {
-    width: 100%;
+  width: 100%;
 }
 
 .header-middle {
-    background-color: #ff99ff;
-    width: 100%;
-    height: 323px;
+  background-color: #ff99ff;
+  width: 100%;
+  height: 323px;
 }
 
 .header-bottom{
@@ -56,27 +56,31 @@
 }
 
 .footer {
-    width: 100%;
-    height: 2150px;
+  width: 100%;
+  height: 2150px;
 }
 
 .conabt{
 	width:100%;
 }
 
+.lowerimage{
+  display: none;
+}
+
 @media screen and (min-width: 800px){
 
 .header-bottom img {
-    width: 100%;
-    /* margin-right: -50px; */
-    /*margin-left: 47.3%;*/
-    margin-top: 3%;
+  width: 100%;
+  /* margin-right: -50px; */
+  /*margin-left: 47.3%;*/
+  margin-top: 3%;
 }
 
 .header-middle {
-    width: 100%;
-    /* height: 61%; */
-    /*height: 408px;*/
+  width: 100%;
+  /* height: 61%; */
+  /*height: 408px;*/
 }
 
 .header-middle p{
@@ -84,32 +88,65 @@
 }
 
 .uppercontent {
-    width: 60%;
+  width: 60%;
 }
 
 .content {
-    width: 49%;
-    float: left;
-    margin-top: 130px;
+  width: 49%;
+  float: left;
+  margin-top: 130px;
 }
 
 
 .lowercontent {
-    float: left;
-    width: 18%;
-    margin-left: 55%;
-    /* font-size: 21px; */
-    margin-top: -3%;
+  float: left;
+  width: 18%;
+  margin-left: 55%;
+  /* font-size: 21px; */
+  margin-top: -3%;
 }
 
 .lower-subcontent{
-	width:29%;
-  background-color: #f2ff33;
+  width:29%;
+  background-color: #33ccff;
   float: left;
+  position: relative;
+  opacity: 0.7;
+  z-index: 3;
 }
 
 .conabt{
 	background-image: url("download-1.jpg");
-	background-color: lightyellow;
+	background-color: #33ccff;;
 	height: 700px;
+  position: absolute;
+}
+
+.main-content {
+  margin-left: 10%;
+  width: 100%;
+  position: relative;
+  margin-top: 42%;
+}
+
+.lowerimage{
+  /*background-image: url("images/download.jpg");*/
+  height: 500px;
+  /*background-color: yellow;*/
+}
+
+.upper-footer {
+    display: flex;
+}
+
+.middle-footer {
+    display: flex;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.footer {
+    width: 100%;
+    height: 50%;
+    background-color: #ff99ff;
 }
